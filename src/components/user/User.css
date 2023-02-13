@@ -1,0 +1,45 @@
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: var(--third-bg-color);
+    border-radius: var(--main-radius);
+    padding: 10px;
+    
+}
+
+.user-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: var(--main-radius);
+}
+
+.user-name {
+    font-size: var(--font-size-xl);
+    color: var(--main-light-color);
+}
+
+.user-nameAndStatus {
+    margin-left: 25px;
+
+}
+
+.user-status {
+    display: flex;
+    align-items: center;
+}
+
+.user-status-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--main-green-color);
+    border-radius: 10px;
+}
+
+.user-status-text {
+    margin-left: 5px;
+    color: var(--main-green-color);
+    font-size: 11px;
+}
