@@ -7,14 +7,16 @@ const User = function () {
         <img className='user-image' src={image} alt="" />
         <div className='user-nameAndStatus'>
             <h1 className='user-name'>Jimmy</h1>
-            <div className='user-status'>
-                <div className='user-status-dot'></div>
-                <div className='user-status-text'>online</div>
-
-            </div>
+            <UserStatus />
 
         </div>
     </div>
 }
+export const UserStatus = function(){
+    return <div className='user-status'>
+        <div className='user-status-dot'></div>
+        <div className='user-status-text'>online</div>
 
+    </div>
+}
 export default User

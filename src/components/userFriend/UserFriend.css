@@ -1,0 +1,68 @@
+.sp-userFriend {
+    /* background-color: #fff; */
+    padding: 5px 3px;
+    display: flex;
+    /* padding: 0 3px; */
+}
+
+.sp-userFriend:hover {
+    background-color: var(--second-light-bg-color);
+    border-radius: var(--second-radius);
+    cursor: pointer;
+    user-select: none;
+}
+
+.sp-userFriend-avatar {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.sp-userFriend-info {
+    display: flex;
+    padding: 5px 0;
+}
+
+.sp-userFriend-nameAndMsg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 5px;
+    /* padding: 5px 0; */
+    width: 100%;
+}
+
+.sp-userFriend {
+    display: flex;
+}
+
+.sp-userFriend-nameAndTime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sp-userFriend-name {
+    color: white;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.sp-userFriend-time {
+    font-size: 9px;
+    color: gray;
+    white-space: nowrap;
+}
+
+.sp-userFriend-lastMsg {
+    width: 164px;
+    /* border: 1px solid red; */
+    color: gray;
+    font-size: 11px;
+    margin-top: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
