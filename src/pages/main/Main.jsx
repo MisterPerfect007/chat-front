@@ -59,5 +59,9 @@ const Header = function(){
     </div>
 }
 
+const messages = [
+    
+]
+
 
 export default Main

@@ -1,8 +1,9 @@
 .messages {
     /* padding-top: 70px; */
     padding: 70px 20px 0 20px;
-    max-height: calc(100vh - 70px);
-    width: 500px;
+    max-height: calc(100vh - 47px);
+    max-width: 500px;
+    min-width: 300px;
     margin: auto;
     overflow: scroll;
     color: aliceblue;
@@ -21,13 +22,25 @@
     /* width: 300px; */
 }
 
+.msg-out-going-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.msg-out-coming-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
 .msg-out-coming-message {
     display: inline-block;
     background-color: var(--third-bg-color);
     font-size: 12px;
     padding: 5px 10px;
     border-radius: 0 10px 10px 10px;
-    max-width: 300px;
+    max-width: 80%;
 }
 
 .msg-out-coming-time {

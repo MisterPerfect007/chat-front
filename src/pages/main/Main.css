@@ -10,7 +10,7 @@ body {
 .main {
     display: flex;
     background-color: var(--main-bg-color);
-    height: 100vh;
+    max-height: 100vh;
     width: 100vw;
     max-width: 1080px;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
@@ -100,6 +100,7 @@ body {
     top: 0;
     width: 100%;
     background-color: var(--third-bg-color);
+    z-index: 1;
 }
 
 .chatBoard-h-Cuser {
@@ -152,7 +153,8 @@ body {
     justify-content: center;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    padding: 0 10px;
+    /* border: 1px solid red; */
 
 }
 
